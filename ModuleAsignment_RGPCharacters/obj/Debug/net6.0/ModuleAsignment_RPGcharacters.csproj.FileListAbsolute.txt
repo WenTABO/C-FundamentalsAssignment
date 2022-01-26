@@ -1,0 +1,15 @@
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\bin\Debug\net6.0\ModuleAsignment_RPGcharacters.exe
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\bin\Debug\net6.0\ModuleAsignment_RPGcharacters.deps.json
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\bin\Debug\net6.0\ModuleAsignment_RPGcharacters.runtimeconfig.json
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\bin\Debug\net6.0\ModuleAsignment_RPGcharacters.dll
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\bin\Debug\net6.0\ref\ModuleAsignment_RPGcharacters.dll
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\bin\Debug\net6.0\ModuleAsignment_RPGcharacters.pdb
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\obj\Debug\net6.0\ModuleAsignment_RPGcharacters.csproj.AssemblyReference.cache
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\obj\Debug\net6.0\ModuleAsignment_RPGcharacters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\obj\Debug\net6.0\ModuleAsignment_RPGcharacters.AssemblyInfoInputs.cache
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\obj\Debug\net6.0\ModuleAsignment_RPGcharacters.AssemblyInfo.cs
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\obj\Debug\net6.0\ModuleAsignment_RPGcharacters.csproj.CoreCompileInputs.cache
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\obj\Debug\net6.0\ModuleAsignment_RPGcharacters.dll
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\obj\Debug\net6.0\ref\ModuleAsignment_RPGcharacters.dll
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\obj\Debug\net6.0\ModuleAsignment_RPGcharacters.pdb
+C:\Users\wendy\OneDrive\Documents\GitHub\Noroff_Bootcamp\ModuleAsignment_RGPCharacters\obj\Debug\net6.0\ModuleAsignment_RPGcharacters.genruntimeconfig.cache
