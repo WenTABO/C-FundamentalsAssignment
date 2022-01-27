@@ -20,6 +20,7 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
         public void levelUp()
         {
             Attributes.Vitality += AttributesGainPerLevel.Vitality;
+            Console.WriteLine($"{ this.Attributes.Vitality}");
             Attributes.Strength += AttributesGainPerLevel.Strength;
             Attributes.Dexterity += AttributesGainPerLevel.Dexterity;
             Attributes.Intelligence += AttributesGainPerLevel.Intelligence;
