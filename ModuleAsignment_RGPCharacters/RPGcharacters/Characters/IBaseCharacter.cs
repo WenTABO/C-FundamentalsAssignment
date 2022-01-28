@@ -9,6 +9,8 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
     public interface IBaseCharacter
     {
         void levelUp();
+        
+     
   
     }
 }

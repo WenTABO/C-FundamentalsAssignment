@@ -8,8 +8,12 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
         {
             var heromage = new MageCharacter { Name = "Per Kristian" };
                     Console.WriteLine($"Hi my name is, { heromage.Name}");
+            heromage.levelUp();
 
+            heromage.GetSecondaryAttributes();
             
+
+            //Console.WriteLine(); 
         }
 
     }
