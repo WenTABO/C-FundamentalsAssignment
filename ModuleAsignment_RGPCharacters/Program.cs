@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModuleAsignment_RPGcharacters.RPGcharacters.Item;
+using System;
 
 namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
 {
@@ -12,7 +13,7 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
 
             heromage.GetSecondaryAttributes();
 
-            var ItemArmour = new Armour (GameArmourType = ArmourType.Cloth, Slot = ItemSlot.Body);
+            var ItemArmour = new Armour (ArmourType = ArmourType.Cloth, Slot = ItemSlot.Body);
 
             heromage.EquipArmour(ItemArmour);
 

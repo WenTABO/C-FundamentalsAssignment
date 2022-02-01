@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModuleAsignment_RPGcharacters.RPGcharacters.Item;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,14 +17,14 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
 
             Console.WriteLine();
         }
-        public override void EquipArmour (IArmour Armour)
+        public override  EquipArmour (IArmour armour)
         {
 
-            if (Armour.GameArmourType != ArmourType.Cloth)
+            if (Armour.ArmourType != ArmourType.Cloth)
             {
                 throw new Exception();
             }
-            EquippedArmour[Armour.Slot = Armour];
+            EquipArmour[Armour.Slot = Armour];
         }
 
        

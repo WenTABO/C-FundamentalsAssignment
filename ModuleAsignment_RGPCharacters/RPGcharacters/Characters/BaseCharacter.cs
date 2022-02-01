@@ -1,4 +1,5 @@
 ﻿using ModuleAsignment_RPGcharacters.RPGcharacters.Characters.Attributes;
+using ModuleAsignment_RPGcharacters.RPGcharacters.Item;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
         public int Level { get; private set; } = 1;
         public PrimaryAttributes AttributesGainPerLevel { get; protected set; }
         public SecondaryAttributes CharacterSecondAttributes { get;  set; }
-        public Dictionary<ItemSlot, IArmour> EquippedArmour { get; set; } = new Dictionary<ItemSlot, IArmour>();
+        public Dictionary<ItemSlot, IArmour> EquipArmour { get; set; } = new Dictionary<ItemSlot, IArmour>();
 
 
 
@@ -40,7 +41,7 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
           
         }
 
-        public abstract void EquipArmour (IArmour Armour);
+        public abstract EquipArmour(IArmour Armour);
 
     }
 }
