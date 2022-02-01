@@ -15,7 +15,7 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
         public int Level { get; private set; } = 1;
         public PrimaryAttributes AttributesGainPerLevel { get; protected set; }
         public SecondaryAttributes CharacterSecondAttributes { get;  set; }
-
+        public Dictionary<ItemSlot, IArmour> EquippedArmour { get; set; } = new Dictionary<ItemSlot, IArmour>();
 
 
 
@@ -39,7 +39,8 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
            return new SecondaryAttributes { Health = Attributes.Vitality * 10, ArmourRating = Attributes.Strength * Attributes.Dexterity, ElementalResistance = Attributes.Intelligence };
           
         }
-        
+
+        public abstract void EquipArmour (IArmour Armour);
 
     }
 }

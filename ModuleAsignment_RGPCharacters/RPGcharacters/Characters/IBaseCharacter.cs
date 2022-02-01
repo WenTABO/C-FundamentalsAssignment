@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
 {
-    public interface IBaseCharacter
+    public interface IBaseCharacter 
     {
         void levelUp();
-        
-     
-  
+        void EquipArmour(IArmour Armour);
+
     }
 }
 

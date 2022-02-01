@@ -11,7 +11,10 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
             heromage.levelUp();
 
             heromage.GetSecondaryAttributes();
-            
+
+            var ItemArmour = new Armour (GameArmourType = ArmourType.Cloth, Slot = ItemSlot.Body);
+
+            heromage.EquipArmour(ItemArmour);
 
             //Console.WriteLine(); 
         }
