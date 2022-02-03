@@ -8,16 +8,20 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
         static void Main(string[] arg)
         {
             var heromage = new MageCharacter { Name = "Per Kristian" };
-                    Console.WriteLine($"Hi my name is, { heromage.Name}");
+            Console.WriteLine($"Hi my name is, { heromage.Name}");
             heromage.levelUp();
 
             heromage.GetSecondaryAttributes();
 
-            var ItemArmour = new Armour (ArmourType = ArmourType.Cloth, Slot = ItemSlot.Body);
+            var ItemArmour = new Armour { ArmourType = ArmourType.Cloth, Slot = ItemSlot.Body };
 
             heromage.EquipArmour(ItemArmour);
 
-            //Console.WriteLine(); 
+            var ItemWeapon = new Weapon { WeaponType = WeaponType.Wands, Slot = ItemSlot.Weapon };
+
+            Console.WriteLine();
+
+           
         }
 
     }

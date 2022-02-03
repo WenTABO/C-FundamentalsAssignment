@@ -9,6 +9,7 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
 {
     public class MageCharacter : BaseCharacter
     {
+
         public MageCharacter()
         {
             Attributes = new PrimaryAttributes { Vitality = 5, Strength = 1, Dexterity = 1, Intelligence = 8, };
@@ -17,19 +18,37 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
 
             Console.WriteLine();
         }
-        public override  EquipArmour (IArmour armour)
+        public override void EquipArmour (IArmour armour)
         {
 
-            if (Armour.ArmourType != ArmourType.Cloth)
+            if (armour.ArmourType != ArmourType.Cloth)
             {
                 throw new Exception();
             }
-            EquipArmour[Armour.Slot = Armour];
+            EquippedArmour[armour.Slot] = armour;
         }
 
-       
+        public override void EquipWeapon(IWeapon weapon)
+        {
+            if (weapon.WeaponType != WeaponType.Staffs)
+            {
+
+                throw new Exception();
+            }
+            else if (weapon.WeaponType != WeaponType.Wands)
+            {
+                throw new Exception();
+            }
+
+            else
+            {
+                EquippedWeapon[weapon.Slot] = weapon;
+            }
+           
+        }
+
     }
-    
-         
-    
+
+
+
 }

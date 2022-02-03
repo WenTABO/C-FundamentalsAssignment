@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ModuleAsignment_RPGcharacters.RPGcharacters.Item;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,8 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
     public interface IBaseCharacter 
     {
         void levelUp();
-        void EquipArmour(IArmour Armour);
+        void EquipArmour(IArmour armour);
+        void EquipWeapon(IWeapon weapon);
 
     }
 }

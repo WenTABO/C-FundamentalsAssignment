@@ -16,7 +16,8 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
         public int Level { get; private set; } = 1;
         public PrimaryAttributes AttributesGainPerLevel { get; protected set; }
         public SecondaryAttributes CharacterSecondAttributes { get;  set; }
-        public Dictionary<ItemSlot, IArmour> EquipArmour { get; set; } = new Dictionary<ItemSlot, IArmour>();
+        public Dictionary<ItemSlot, IArmour> EquippedArmour { get; set; } = new Dictionary<ItemSlot, IArmour>();
+        public Dictionary<ItemSlot, IWeapon> EquippedWeapon { get; set; } = new Dictionary<ItemSlot, IWeapon>();
 
 
 
@@ -41,8 +42,8 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
           
         }
 
-        public abstract EquipArmour(IArmour Armour);
-
+        public abstract void EquipArmour(IArmour armour);
+        public abstract void EquipWeapon(IWeapon weapon);
     }
 }
 

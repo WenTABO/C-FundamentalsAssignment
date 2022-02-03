@@ -1,6 +1,8 @@
 ﻿namespace ModuleAsignment_RPGcharacters.RPGcharacters.Item
 {
-    internal interface IWeapon
+    public interface IWeapon
     {
+        public WeaponType WeaponType { get; set; }
+        public ItemSlot Slot { get; set; }
     }
 }
