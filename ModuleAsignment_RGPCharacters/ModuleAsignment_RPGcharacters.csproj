@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="RPG_Characters_Test\**" />
+    <EmbeddedResource Remove="RPG_Characters_Test\**" />
+    <None Remove="RPG_Characters_Test\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="RPGcharacters\Item\ItemForCharacter.cs" />
   </ItemGroup>
 

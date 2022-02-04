@@ -24,14 +24,14 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
 
 
 
-        public void levelUp()
+        public int levelUp()
         {
             Attributes.Vitality += AttributesGainPerLevel.Vitality;
             //Console.WriteLine($"{ this.Attributes.Vitality}");
             Attributes.Strength += AttributesGainPerLevel.Strength;
             Attributes.Dexterity += AttributesGainPerLevel.Dexterity;
             Attributes.Intelligence += AttributesGainPerLevel.Intelligence;
-           
+            return Level += 1;
 
 
         }

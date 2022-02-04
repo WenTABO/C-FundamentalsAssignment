@@ -9,7 +9,7 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
 {
     public interface IBaseCharacter 
     {
-        void levelUp();
+        int levelUp();
         void EquipArmour(IArmour armour);
         void EquipWeapon(IWeapon weapon);
 

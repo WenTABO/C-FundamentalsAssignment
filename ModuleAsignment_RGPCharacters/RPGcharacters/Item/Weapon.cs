@@ -8,8 +8,8 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Item
 {
     public class Weapon : IWeapon
     {
-        //public WeaponType Weapontype { get; set; }
-        public WeaponType WeaponType { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public WeaponType WeaponType { get; set; }
+       
         public ItemSlot Slot { get; set; }
     }
 }

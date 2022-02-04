@@ -15,7 +15,7 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
             Attributes = new PrimaryAttributes { Vitality = 5, Strength = 1, Dexterity = 1, Intelligence = 8, };
             AttributesGainPerLevel = new PrimaryAttributes { Vitality = 3, Strength = 1, Dexterity = 1, Intelligence = 5, };
             CharacterSecondAttributes = GetSecondaryAttributes();
-
+            
             Console.WriteLine();
         }
         public override void EquipArmour (IArmour armour)
