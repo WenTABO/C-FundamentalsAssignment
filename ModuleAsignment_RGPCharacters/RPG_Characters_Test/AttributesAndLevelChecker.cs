@@ -94,26 +94,26 @@ namespace RPG_Characters_Test
 
         }
 
-        //
-        //
-        //
-        ////UnitTest #5 check_default_AttributesGainPerLevel_in this case Level UP once For  MAGE Character
 
 
-        //[Fact]
-        //public void CheckIF_MagePrImaryAttributesGainPerLevel_Vitality_IncreasestoEight()
-        //{
-        //    //Arrange
-        //    BaseCharacter CheckVitalityGainAttribute = new MageCharacter();
-        //    int ExpectedVitalityGainAttribute = 8;
 
-        //    //Act
-        //    int ActualVitalityGainAttribute = CheckVitalityGainAttribute.levelUp();
-        //    //Assert
+        //UnitTest #5 check_default_AttributesGainPerLevel_in this case Level UP once For  MAGE Character
 
-        //    Assert.Equal(ExpectedVitalityGainAttribute, ActualVitalityGainAttribute);
 
-        //}
+        [Fact]
+        public void CheckIF_MagePrImaryAttributesGainPerLevel_Vitality_IncreasestoEight()
+        {
+            //Arrange
+            BaseCharacter CheckVitalityGainAttribute = new MageCharacter();
+            int ExpectedVitalityGainAttribute = 8;
+
+            //Act
+            int ActualVitalityGainAttribute = CheckVitalityGainAttribute.pri();
+            //Assert
+
+            Assert.Equal(ExpectedVitalityGainAttribute, ActualVitalityGainAttribute);
+
+        }
 
         ////UnitTest #6 check_SecondAttributes for Health = Vitality*10  For  MAGE Character
         ///
@@ -121,7 +121,7 @@ namespace RPG_Characters_Test
         public void CheckMageSecondAttributes_Health_isFifty()
         {
             //Arrange
-            BaseCharacter CheckMageHealthAttribute = new BaseCharacter();
+            BaseCharacter CheckMageHealthAttribute = new MageCharacter();
             int ExpectedMageHealthAttribute = 50;
 
             //Act
