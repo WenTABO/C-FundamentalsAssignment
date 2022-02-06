@@ -6,6 +6,6 @@
         public ArmourType ArmourType{ get; set; }
         public ItemSlot Slot{ get; set; }
 
-      
+
     }
 }

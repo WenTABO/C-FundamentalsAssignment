@@ -8,7 +8,7 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Item
 {
     public class Weapon : IWeapon
     {
-        public WeaponType WeaponType { get; set; }
+        public WeaponType weaponType { get; set; }
        
         public ItemSlot Slot { get; set; }
     }

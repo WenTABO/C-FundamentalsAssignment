@@ -12,6 +12,5 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters.Attributes
         public int ArmourRating { get; set; }
         public int ElementalResistance { get; set; }
 
-        
     }
 }

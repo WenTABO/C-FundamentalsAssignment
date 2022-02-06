@@ -17,9 +17,4 @@
     <Compile Remove="RPGcharacters\Item\ItemForCharacter.cs" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="RPGcharacters\Equipment\" />
-    <Folder Include="RPGcharacters\Tools\" />
-  </ItemGroup>
-
 </Project>

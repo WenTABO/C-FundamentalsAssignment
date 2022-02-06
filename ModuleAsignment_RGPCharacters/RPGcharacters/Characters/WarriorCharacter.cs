@@ -8,24 +8,22 @@ using System.Threading.Tasks;
 
 namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
 {
-    public class MageCharacter : BaseCharacter
+    public class WarriorCharacter : BaseCharacter
     {
 
-        public MageCharacter()
+
+        public WarriorCharacter()
         {
-            attributes = new PrimaryAttributes { Vitality = 5, Strength = 1, Dexterity = 1, Intelligence = 8, };
-            attributesGainPerLevel = new PrimaryAttributes { Vitality = 3, Strength = 1, Dexterity = 1, Intelligence = 5, };
+            attributes = new PrimaryAttributes { Vitality = 10, Strength = 5, Dexterity = 2, Intelligence = 1, };
+            attributesGainPerLevel = new PrimaryAttributes { Vitality = 5, Strength = 3, Dexterity = 2, Intelligence = 1, };
             characterSecondAttributes = GetSecondaryAttributes();
-            
-            
+
+
         }
-        public override void EquipArmour (IArmour armour, int equipmentLevel)
+        public override void EquipArmour(IArmour armour, int itemLevel)
         {
-            if (equipmentLevel != 1)
 
-                throw new Exception();
-
-            if (armour.ArmourType != ArmourType.Cloth)
+            if (armour.ArmourType != ArmourType.Plate && ((armour.ArmourType) != ArmourType.Mail))
             {
                 throw new InvalidArmourException();
             }
@@ -36,11 +34,7 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
 
         public override void EquipWeapon(IWeapon weapon, int itemLevel)
         {
-            if (itemLevel != 1)
-            {
-                throw new Exception();
-            }
-            if (((weapon.weaponType) !=  WeaponType.Staffs && ((weapon.weaponType) != WeaponType.Wands))) 
+            if (((weapon.weaponType) != WeaponType.Axes && ((weapon.weaponType) != WeaponType.Hammers)) && ((weapon.weaponType) != WeaponType.Swords))
             {
 
 
@@ -49,7 +43,7 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
             }
 
             equippedWeapon[weapon.Slot] = weapon;
-            validWeaponMessage =  "New Weapon equipped";
+            validWeaponMessage = "New Weapon equipped";
             Console.WriteLine($"{ validWeaponMessage}");
 
         }
@@ -59,3 +53,6 @@ namespace ModuleAsignment_RPGcharacters.RPGcharacters.Characters
 
 
 }
+
+
+
